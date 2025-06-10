@@ -244,7 +244,7 @@ Once your Spring Boot application is running with the H2 database enabled, you c
    http://localhost:8080/h2-console
    ```
 4. **Configure the connection settings:**
-    - **JDBC URL:** `jdbc:h2:mem:testdb` (or whatever you configured in your `application.properties`)
+    - **JDBC URL:** `jdbc:h2:mem:testdb` (according to `application.properties`)
     - **User Name:** `sa`
     - **Password:** (leave blank)
 5. **Click on the "Connect" button.**
