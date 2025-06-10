@@ -136,7 +136,6 @@ You can test the UserLookup GraphQL API using Postman either by sending raw JSON
   ```bash
   http://localhost:8080/graphql
     ```
-### 1. Using Raw JSON Body (POST request)
 
 **Step 3:** Go to the **Headers** tab and ensure you have:
 
@@ -164,11 +163,13 @@ You can test the UserLookup GraphQL API using Postman either by sending raw JSON
 ```
 **Step 6:** Click **Send**. You should receive a JSON response with data.
 
-![Screenshot (335).png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FScreenshot%20%28335%29.png)
-![Screenshot (334).png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FScreenshot%20%28334%29.png)
+![1.png](assets%2F1.png)
+![2.png](assets%2F2.png)
+![4.png](assets%2F4.png)
+
 
 ### Custom Exception Handling
-![Screenshot (333).png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FScreenshot%20%28333%29.png)
+![3.png](assets%2F3.png)
 
 ### 2. Using Postman’s Native GraphQL Request Type
 **Step 1:** Create a new request in Postman.
@@ -224,9 +225,8 @@ Go to the **Headers** tab and ensure you have:
 **Step 4:** You can just select the query or mutation you want to execute from the list of available operations. And add any required variables in the VARIABLES section.
 
 **Step 5:** Click **Send** to execute the query or mutation and view the response.
-
-![Screenshot (338).png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FScreenshot%20%28338%29.png)
-![Screenshot (340).png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FScreenshot%20%28340%29.png)
+![5.png](assets%2F5.png)
+![6.png](assets%2F6.png)
 
 ## How to Access the H2 Database Console
 
@@ -250,7 +250,7 @@ Once your Spring Boot application is running with the H2 database enabled, you c
 5. **Click on the "Connect" button.**
 You should now be able to see the H2 console where you can run SQL queries, view tables, and manage your in-memory database.
 
-![Screenshot (343).png](..%2F..%2F..%2FOneDrive%2FPictures%2FScreenshots%2FScreenshot%20%28343%29.png)
+![7.png](assets%2F7.png)
 
 > **Important:**
 > Since the database is in-memory, all data will be lost when the application stops. This console is mainly for development and debugging purposes.
