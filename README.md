@@ -30,8 +30,8 @@ Designed for simplicity yet extensibility, UserLookup includes features like use
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/graphql-springboot-crud-demo.git
-   cd graphql-springboot-crud-demo
+   git clone https://github.com/PritiAryal/UserLookup.git
+   cd UserLookup
    ```
 
 2. Build the project using Maven:
