@@ -34,3 +34,4 @@ type Mutation {
     createUser(input: CreateUserInput!): User
     createPost(input: CreatePostInput!): Post
 }
+# GraphQL schema for a user and post Lookup

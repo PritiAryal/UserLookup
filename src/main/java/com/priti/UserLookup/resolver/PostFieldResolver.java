@@ -12,8 +12,8 @@ import org.springframework.stereotype.Controller;
 public class PostFieldResolver {
 //    private final UserService userService;
 
-    @SchemaMapping(typeName = "Post", field = "author")
-    public User resolveAuthor(Post post){
-        return post.getAuthor();//Post entity already has a properly mapped User author so not needed in this example so this whole class can be skipped.
-    }
+//    @SchemaMapping(typeName = "Post", field = "author")
+//    public User resolveAuthor(Post post){
+//        return post.getAuthor();//Post entity already has a properly mapped User author so not needed in this example so this whole class can be skipped.
+//    }
 }
